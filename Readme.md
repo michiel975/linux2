@@ -41,6 +41,9 @@ nano Readme.md
 
 ## Add, commit and place on github
 ```shell
+git add .
+git commit -m "The changes you did"
+git push
 ```
 
 ## Add main.cpp to the dir and place the code for a hello world application into it
@@ -61,12 +64,19 @@ ls
 ./main
 ```
 
-![Screenshot](/home/michiel975/Pictures/screenshot_main.png "Screenshot")
+![Screenshot](/Pictures/screenshot_main.png "Screenshot")
 
 ## Add a gitignore for the binary file that was generated
 ```shell
-nano ./gitignore
+nano .gitignore
 ```
 Type ```/main``` in the gitignore file
 
 ## Make sure to add, commit and push the latest updates
+```shell
+ssh-keygen -t rsa -C "michiel.meyfroodt@student.vives.be" -b 4096
+git status
+git add .
+git commit -m "Assignment 1"
+git push -u origin master
+```
