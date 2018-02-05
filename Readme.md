@@ -64,7 +64,7 @@ ls
 ./main
 ```
 
-![Screenshot](/Pictures/screenshot_main.png "Screenshot")
+![alt text](/Pictures/screenshot_main.png)
 
 ## Add a gitignore for the binary file that was generated
 ```shell
