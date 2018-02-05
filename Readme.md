@@ -1,7 +1,4 @@
-% README
-% Michiel Meyfroodt
-% 2/02/2018
-
+Michiel Meyfroodt
 
 ## Install Git
 ```shell	
